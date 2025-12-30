@@ -2,8 +2,8 @@
   "name": "terragrunt-hcl-formatter",
   "displayName": "Terragrunt HCL Formatter",
   "description": "Formatter and highlighting focused on Terragrunt .hcl files.",
-  "version": "1.0.42",
-  "publisher": "local",
+  "version": "1.0.43",
+  "publisher": "SeemsCloud",
   "icon": "assets/terragrunt.png",
   "repository": {
     "type": "git",

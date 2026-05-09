@@ -2,8 +2,8 @@
   "name": "terragrunt-hcl-formatter",
   "displayName": "Terragrunt HCL Formatter",
   "description": "Formatter and highlighting focused on Terragrunt .hcl files.",
-  "version": "1.0.43",
-  "publisher": "SeemsCloud",
+  "version": "1.0.49",
+  "publisher": "theanotherwise",
   "icon": "assets/terragrunt.png",
   "repository": {
     "type": "git",
@@ -18,8 +18,7 @@
   },
   "activationEvents": [
     "onStartupFinished",
-    "onLanguage:terragrunt",
-    "onLanguage:hcl"
+    "onLanguage:terragrunt"
   ],
   "categories": [
     "Programming Languages",
@@ -32,8 +31,7 @@
     "terragrunt",
     "terragrunt formatter",
     "hcl formatter",
-    "syntax highlighting",
-    "hcl"
+    "syntax highlighting"
   ],
   "contributes": {
     "configuration": {
@@ -50,11 +48,7 @@
       "[terragrunt]": {
         "editor.defaultFormatter": "local.terragrunt-hcl-formatter"
       },
-      "[hcl]": {
-        "editor.defaultFormatter": "local.terragrunt-hcl-formatter"
-      },
       "files.associations": {
-        "**/*.hcl": "terragrunt",
         "**/terragrunt.hcl": "terragrunt"
       }
     },
@@ -65,7 +59,7 @@
           "Terragrunt HCL"
         ],
         "extensions": [
-          ".hcl"
+          "terragrunt.hcl"
         ],
         "configuration": "./etc/language.json"
       }
